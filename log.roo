@@ -1,0 +1,11 @@
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2015-06-18 12:13:16
+project --topLevelPackage com.test --projectName TestAspects --java 7 --packaging JAR
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2015-06-18 12:13:29
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2015-06-18 12:13:34
+service --entity com.test.ServiceImpl --interface com.test.Service
+web mvc setup
+web mvc all --package com.test
+jpa setup --provider HIBERNATE --database H2_IN_MEMORY 
+entity jpa --class com.test.Topping
+web mvc all --package com.test
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2015-06-19 12:11:25
