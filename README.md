@@ -2,4 +2,4 @@ This repo is to present 2 examples where the m2e connector prevents the aspectj-
 
 The only way to get the aspectj-maven-plugin to function correctly is to disable the m2e connector by overriding the lifecycle mapping in the pom.xml.
 
-Uncomment the lifecycle mapping override in the root pom of each project to see the aspectj-maven-plugin work properly from within eclipse.
+By default, the m2e lifecycle mapping is defined by the m2e-connector.  To override the m2e connector settings and make both apps functional, enable the maven profile: override-m2e-lifcycle (in project properties->maven).
